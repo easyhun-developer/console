@@ -19,7 +19,7 @@ public class CommonsLogTest {
 	
 	public static void main(String[] args) {
 		String url = "http://ws.bus.go.kr/api/rest/busRouteInfo/getBusRouteList?strSrch=6628&ServiceKey=AaxqTg02PVW%2BZhaIkh4fVAIiknK6EU6ZkfT1lQEHEo2PRlldpzfhjoBwE63YKQGpiY4JdZCjCktTW2yatRX%2FgA%3D%3D";
-		try{
+		
 		
 			try {
 			
@@ -42,7 +42,6 @@ public class CommonsLogTest {
 				e.printStackTrace();
 			}
 		}
-	}
 	public static void test1(){
 		log.info("Hello Commons Logging");
 		for(int i=0;i<10;i++){
